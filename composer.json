@@ -1,0 +1,29 @@
+{
+    "name": "sozodesign/magento2-module-sozo-zendeskchat",
+    "description": "SOZO Magento 2 module for Zendesk Chat",
+    "config": {
+        "sort-packages": true
+    },
+    "authors": [
+        {
+            "name": "Becky Doggett",
+            "email": "becky@sozodesign.co.uk",
+            "homepage": "https://sozodesign.co.uk",
+            "role": "Developer"
+        }
+
+    ],
+    "require": {
+        "magento/framework": "102.0.*"
+    },
+    "type": "magento2-module",
+    "license": "Proprietary",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sozo\\ZendeskChat\\": ""
+        }
+    }
+}
