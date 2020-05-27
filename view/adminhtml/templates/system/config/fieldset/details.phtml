@@ -27,8 +27,7 @@
 <div id="sozo-container">
     <p>
         <strong>
-            <?= $block->getVersion();?>
-            <?= $block->escapeHtml(__(sprintf('SOZO Design Zendesk Chat Plugin v%1.', $block->getVersion()))) ?>
+            <?= $block->escapeHtml(__(sprintf('SOZO Design Zendesk Chat Plugin v%s.', $block->getVersion())));?>
         </strong> <br>
         <?= $block->escapeHtml(__('Magento 2 Zendesk Chat'));?><br>
     </p>

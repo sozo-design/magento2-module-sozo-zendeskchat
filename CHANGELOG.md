@@ -20,5 +20,7 @@ Given a version number MAJOR.MINOR.PATCH, increment the:
 * [Security] in case of vulnerabilities.
 
 ### [Unreleased]
+
+### [v300.0.1] - 2020-05-27
 - Initial Release
 
