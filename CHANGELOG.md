@@ -21,6 +21,14 @@ Given a version number MAJOR.MINOR.PATCH, increment the:
 
 ### [Unreleased]
 
-### [v300.0.1] - 2020-05-27
+## [v400.0.0] - 2022-05-09
+### Added
+- Magento 2.4 compatibility
+
+### Changed
+- Removed year from copyright
+
+
+## [v300.0.1] - 2020-05-27
 - Initial Release
 
