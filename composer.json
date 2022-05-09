@@ -14,7 +14,7 @@
 
     ],
     "require": {
-        "magento/framework": "102.0.*"
+        "magento/magento-composer-installer": "*"
     },
     "type": "magento2-module",
     "license": "OSL-3.0",
